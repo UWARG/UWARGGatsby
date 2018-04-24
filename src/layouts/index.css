@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
   position: relative;
   margin: 0;
-  min-height: 100%;
+  min-height: 100vh;
   color: #262626;
   font-family: 'Open Sans', sans-serif;
   padding-top: 3.5em;
@@ -87,7 +87,7 @@ button {
 .footer {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -1;
   left: 0;
   padding: 3em;
   padding-top: 1.5em;
@@ -160,10 +160,6 @@ button {
     padding-left: 3em;
   }
 
-  body {
-    padding-bottom: 15rem;
-  }
-
   .paddingLeft {
     padding-left: 3em;
     padding-right: 3em;
@@ -171,12 +167,6 @@ button {
 }
 
 @media only screen and (max-width: 1000px) {
-  .footer {
-    position: inherit;
-    padding: 3em;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
-  }
 
   .hideOnMobile {
     display: none;
