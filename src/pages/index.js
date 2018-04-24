@@ -30,7 +30,7 @@ const IndexPage = () => (
         <h1>Learn More</h1>
         <p className="bodyText">If you’re interested in learning more about us, read our about page. We’re always looking for new talent, so if you’d like to join, find out more <Link to="/join">here</Link>. If you represent a company or would like to sponsor us, click <Link to="/sponsors">here</Link> to view the sponsor information package, or you can <Link to="/contact">contact us</Link> directly.</p>
       </div>
-      <div className="col-md-3 col-12">
+      <div className="col-md-3 col-12 ml-auto mr-auto">
         <div className="row">
           <div className="col-12">
             <h1>Top Sponsors</h1>
