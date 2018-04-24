@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const NotFoundPage = () => (
   <div className="container-fluid paddingLeft">
@@ -11,4 +11,4 @@ const NotFoundPage = () => (
   </div>
 )
 
-export default NotFoundPage
+export default NotFoundPage;
