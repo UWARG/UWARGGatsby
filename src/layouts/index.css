@@ -1,0 +1,192 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  color: #262626;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 3.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+.projectCard {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.projectCard:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button {
+  cursor: pointer;
+  text-align: center;
+  border-radius: .1em !important;
+  font-weight: 600;
+  transform: .2s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.mainColor {
+  background-color: #262626;
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.whiteText {
+  color: white;
+}
+
+.bodyText {
+  font-size: 1.2em;
+}
+
+.noUnderline:hover {
+  text-decoration: none;
+}
+
+.bodyHeaderHolder {
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+
+.whiteText:hover {
+  color: white;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3em;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.footerLink {
+  font-size: .8em;
+  color: #C5C5C5;
+  margin-bottom: .4em;
+}
+
+.footerLink:hover {
+  color: #C5C5C5;
+}
+
+.footerContactText {
+  font-size: .8em;
+}
+
+.mediaIcon {
+  transition: .2s;
+  cursor: pointer;
+}
+
+.mediaIcon:hover {
+  color: grey;
+}
+
+.nav-link {
+  color: white !important;
+  transition: .2s;
+  font-weight: normal;
+  color: white;
+  font-size: 1.1em;
+  padding-bottom: .25em;
+  margin-right: 2em;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
+.navbar-brand {
+  margin-top: .2em;
+}
+
+.fa {
+  margin-right: 1em;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100vh;
+  background-image: url('/assets/heroImage.jpg');
+  background-size: cover;
+}
+
+@media only screen and (max-width : 480px) {
+  .heroImage {
+    height: 100%;
+    padding-bottom: 2em;
+    background-image: url('/assets/heroImage.jpg');
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width : 768px) {
+  .navbar {
+    padding-left: 3em;
+  }
+
+  body {
+    padding-bottom: 15rem;
+  }
+
+  .paddingLeft {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    position: inherit;
+    padding: 3em;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .mobileMarginBottom {
+    margin-bottom: 3em;
+  }
+
+  .mobileSmallMarginBottom {
+    margin-bottom: 1em;
+  }
+}
+
+textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
+    border-color: #262626 !important;
+    outline: 0 none !important;
+}
