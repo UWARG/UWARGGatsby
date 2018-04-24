@@ -37,7 +37,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row">
-          <img />
+          <img src="topsponsors.png" className="img-fluid" />
         </div>
       </div>
     </div>
