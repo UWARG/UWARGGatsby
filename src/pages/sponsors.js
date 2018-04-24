@@ -17,7 +17,7 @@ const SponsorsPage = () => (
       </div>
     </div>
     <div style={{marginBottom: "7em"}} className="row">
-      <img />
+      <img src="financesponsors.png" className="img-fluid" />
     </div>
     <div style={{marginBottom: "1em"}} className="row">
       <div className="col-md-6 col-12">
@@ -26,7 +26,7 @@ const SponsorsPage = () => (
       </div>
     </div>
     <div style={{marginBottom: "3em"}} className="row">
-      <img />
+      <img src="servicesponsors.png" className="img-fluid" />
     </div>
     <div className="row bodyHeaderHolder">
       <div className="col-md-6 col-12">

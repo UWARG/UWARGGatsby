@@ -7,7 +7,7 @@ const ContactPage = () => (
       <div className="col-md-5 col-12 mr-auto mobileMarginBottom">
         <h1>Contact</h1>
         <p className="bodyText">You’re welcome to contact us about anything, whether you’re a student, sponsor, or just someone who’s interested in what we do. You can either email us at <strong>uw.warg@gmail.com</strong>, or just use the form below.</p>
-        <form>
+        <form netlify name="contact" method="POST">
           <div class="form-group">
             <h2>Name</h2>
             <input style={{marginBottom: "2em"}} type="text" className="form-control"/>

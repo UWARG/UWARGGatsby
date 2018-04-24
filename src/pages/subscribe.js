@@ -7,7 +7,7 @@ const SubscribePage = () => (
       <div className="col-md-6 col-12">
         <h1>Subscribe</h1>
         <p className="bodyText">Fill out the form below to subscribe to our mailing list. You can unsubscribe from the mailing list here.</p>
-        <form>
+        <form name="subscribe" method="POST" netlify>
           <div class="form-group">
             <h2 style={{paddingTop: "1em"}}>Email address</h2>
             <input style={{marginBottom: "2em"}} type="email" className="form-control"/>
