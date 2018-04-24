@@ -71,7 +71,7 @@ const ProjectsPage = () => (
         <Link className="noUnderline" style={{color: "#262626"}} to="/groundstation">
           <img className="img-fluid" src="groundstationicon.png" />
           <h4 style={{marginBottom: "0em", marginTop: ".2em"}}>Ground Station</h4>
-          <small className="text-muted">Seemless wireless control of all our systems.</small>
+          <small className="text-muted">Seamless wireless control of all our systems.</small>
         </Link>
       </div>
     </div>
