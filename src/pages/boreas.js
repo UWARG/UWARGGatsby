@@ -10,7 +10,7 @@ const BoreasPage = () => (
         <p className="bodyText">The aircraft’s long range capabilities and 90 minutes of flight time will prove to be major assets during competitions. The future for Boreas is exciting, as plans include entering future AUVSI Student Unmanned Aerial Systems Competitions.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/boreas.jpg" />
+        <img className="img-fluid" src="boreas.jpg" />
       </div>
     </div>
     <OtherProjects current="Project Boreas" />

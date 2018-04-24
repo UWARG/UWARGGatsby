@@ -10,7 +10,7 @@ const HexPage = () => (
         <p className="bodyText">WARG’s hexacopter is equipped with six rotors that allow for greater stability, lifting power, and landing skills. With 5 kg of payload capacity, competition and mission specific tasks can be achieved, such as object transport and retrieval.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/hex.png" />
+        <img className="img-fluid" src="hex.png" />
       </div>
     </div>
     <OtherProjects current="Project Hex" />

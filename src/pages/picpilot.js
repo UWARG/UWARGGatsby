@@ -11,7 +11,7 @@ const PicPilotPage = () => (
         <p className="bodyText">The Attitude Manager’s primary task is to track and maintain the rotational position of the aircraft in 3D space. This includes pitch, roll, and yaw, as well as the pitch rate, roll rate, and yaw rate of the aircraft. The Attitude Manager does so via a series of tuned control loops integrated with sensor feedback. Additionally, the Attitude Manager is responsible for managing communications between Ground Control and the aircraft. This subsystem has controlled many WARG vehicles, including quadcopters, planes, and cars.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/picpilot1.png" />
+        <img className="img-fluid" src="picpilot1.png" />
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -20,7 +20,7 @@ const PicPilotPage = () => (
         <p className="bodyText">These two subsystems have their own dedicated microcontroller. The Attitude Manager and the Path Manager both use the Microchip dsPIC33FJ256GP710A. Each processor runs at 80 MHz and has support for multiple UART, SPI, I2C, and PWM interfaces.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/picpilot2.png" />
+        <img className="img-fluid" src="picpilot2.png" />
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -50,7 +50,7 @@ const PicPilotPage = () => (
         <p className="bodyText"><strong>Wiki:</strong> <a href="https://github.com/UWARG/PICpilot/wiki" target="_blank">Here</a></p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/picpilot3.png" />
+        <img className="img-fluid" src="picpilot3.png" />
       </div>
     </div>
     <OtherProjects current="PicPilot" />

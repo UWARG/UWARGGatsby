@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { Link } from 'react-router-dom';
+import Link from 'gatsby-link';
 
 class Footer extends React.Component {
   constructor(props) {
@@ -30,7 +29,7 @@ class Footer extends React.Component {
             </div>
             <div className="row no-gutters hideOnMobile">
               <div style={{textAlign: "center"}} className="col-12">
-                <img src="/assets/logo.png" width="130" />
+                <img src="logo.png" width="130" />
               </div>
             </div>
           </div>

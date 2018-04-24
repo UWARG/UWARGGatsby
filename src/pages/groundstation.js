@@ -10,7 +10,7 @@ const GroundStationPage = () => (
         <p className="bodyText">WARG’s Ground Station was created to be perfectly compatible with PICPilot, controlling all aspects and features of the autopilot system. The setup was simple, consisting of two parts:</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/groundstation4.png" />
+        <img className="img-fluid" src="groundstation4.png" />
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -21,7 +21,7 @@ const GroundStationPage = () => (
         <p className="bodyText">WARG’s Ground Station is the second component of the Ground Station as a whole. It displayed the data from the Data Relay Station in a user friendly format. The WARG Ground Station had offline map support, as well as fancy telemetry graphics, so WARG members could tell exactly what was going on at all times. Written in JavaScript and running Node.js, it was easily modified to suit the requirements of the current situation.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/groundstation2.png" />
+        <img className="img-fluid" src="groundstation2.png" />
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -35,7 +35,7 @@ const GroundStationPage = () => (
         </ul>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/groundstation3.png" />
+        <img className="img-fluid" src="groundstation3.png" />
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -45,7 +45,7 @@ const GroundStationPage = () => (
         <p className="bodyText"><strong>Instructions to compile:</strong> <a href="https://github.com/UWARG/WARG-Ground-Station-V2/blob/master/README.md" target="_blank">https://github.com/UWARG/WARG-Ground-Station-V2/blob/master/README.md</a></p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/groundstation1.png" />
+        <img className="img-fluid" src="groundstation1.png" />
       </div>
     </div>
     <OtherProjects current="Ground Station" />

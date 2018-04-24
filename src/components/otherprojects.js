@@ -19,31 +19,31 @@ class OtherProjects extends React.Component {
       {
         name: "Project Boreas",
         description: "The newest addition to the WARG fleet.",
-        photo: "/assets/boreas.jpg",
+        photo: "boreas.jpg",
         link: "/projectboreas"
       },
       {
         name: "Project Hex",
         description: "Our current competition vehicle.",
-        photo: "/assets/hex.png",
+        photo: "hex.png",
         link: "/projecthex"
       },
       {
         name: "ZeroPilot",
         description: "The board behind it all. Custom designed and built by us, for us.",
-        photo: "/assets/zeropilot.jpg",
+        photo: "zeropilot.jpg",
         link: "/zeropilot"
       },
       {
         name: "Tracking Antenna",
         description: "Seemless wireless control of all our systems.",
-        photo: "/assets/trackingantenna.png",
+        photo: "trackingantenna.png",
         link: "/trackingantenna"
       },
       {
         name: "Computer Vision System",
         description: "Seemless wireless control of all our systems.",
-        photo: "/assets/computervisionsystem.png",
+        photo: "computervisionsystem.png",
         link: "/computervisionsystem"
       },
     ];

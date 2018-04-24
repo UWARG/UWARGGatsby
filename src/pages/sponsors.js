@@ -17,13 +17,7 @@ const SponsorsPage = () => (
       </div>
     </div>
     <div style={{marginBottom: "7em"}} className="row">
-      <Sponsor size="lg" link="/sponsors/weef.png" />
-      <Sponsor size="lg" link="/sponsors/mef.png" />
-      <Sponsor size="lg" link="/sponsors/ece.png" />
-      <Sponsor size="lg" link="/sponsors/mech.png" />
-      <Sponsor size="lg" link="/sponsors/deans.png" />
-      <Sponsor size="md" link="/sponsors/ece.png" />
-      <Sponsor size="md" link="/sponsors/sandford.png" />
+      <img />
     </div>
     <div style={{marginBottom: "1em"}} className="row">
       <div className="col-md-6 col-12">
@@ -32,11 +26,7 @@ const SponsorsPage = () => (
       </div>
     </div>
     <div style={{marginBottom: "3em"}} className="row">
-      <Sponsor size="md" link="/sponsors/electrometers.png" />
-      <Sponsor size="sm" link="/sponsors/solidworks.png" />
-      <Sponsor size="sm" link="/sponsors/asana.png" />
-      <Sponsor size="sm" link="/sponsors/saleae.png" />
-      <Sponsor size="sm" link="/sponsors/github.png" />
+      <img />
     </div>
     <div className="row bodyHeaderHolder">
       <div className="col-md-6 col-12">

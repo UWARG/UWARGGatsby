@@ -11,7 +11,7 @@ const SpikePage = () => (
         <p className="bodyText">This setup allowed WARG to obtain high quality images and stream down live video simultaneously during competition, while S.P.I.K.E. soared 30 km/hr at 100 feet above.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/spike1.png" />
+        <img className="img-fluid" src="spike1.png" />
       </div>
     </div>
     <OtherProjects current="Project SPIKE" />
