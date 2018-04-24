@@ -33,7 +33,7 @@ const SponsorsPage = () => (
         <h1>How to Become a Sponsor</h1>
         <p className="bodyText">The Waterloo Aerial Robotics Group would not exist and could not operate were it not for the assistance provided from our many sponsors. If you own or represent a company or organization, we encourage you to consider sponsoring our exciting entry into the Aerial Robotics Competition.</p>
         <p className="bodyText">WARG would stand to benefit from your financial assistance, technology, and expertise. You can start by taking a look at the sponsor information package, and contacting us.</p>
-        <a href="/uwargsponsorpackage.pdf" target="_blank"><button className="btn btn-lg button whiteText mainColor">Download Sponsor Package</button></a>
+        <a href="/uwargsponsorpackage.pdf" target="_blank"><button className="btn btn-lg button whiteText mainColor">See Sponsor Package</button></a>
       </div>
     </div>
   </div>
