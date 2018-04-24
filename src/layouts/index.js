@@ -19,7 +19,6 @@ const Layout = ({ children, data }) => (
         { property: 'og:url', content: 'http://uwarg.com' },
         { property: 'og:image', content: 'http://www.uwarg.com/assets/favicon.ico' },
         { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1.0' },
       ]}
     />
     <Navbar />
