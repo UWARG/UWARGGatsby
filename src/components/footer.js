@@ -51,7 +51,7 @@ class Footer extends React.Component {
               <div className="col-12">
                 <h5 className="whiteText">Links</h5>
                 <a className="footerLink d-block" href="https://uwarg.slack.com/" target="_blank">Slack</a>
-                <a className="footerLink d-block" href="http://docs.uwarg.com" target="_blank">Docs</a>
+                <a className="footerLink d-block" href="http://www.docs.uwarg.com" target="_blank">Docs</a>
                 <a className="footerLink d-block" href="https://uwarg-docs.atlassian.net/wiki" target="_blank">Atlassian</a>
                 <a className="footerLink d-block" href="https://www.unmannedsystems.ca/" target="_blank">Unmanned Systems Canada</a>
                 <a className="footerLink d-block" href="https://uwaterloo.ca/sedra-student-design-centre/" target="_blank">Sedra Student Design Centre</a>

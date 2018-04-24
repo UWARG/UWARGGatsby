@@ -30,7 +30,7 @@ class Navbar extends React.Component {
             <Link onClick={() => {this.toggleNav()}} className="nav-item nav-link" to="/projects">Projects</Link>
             <Link onClick={() => {this.toggleNav()}} className="nav-item nav-link" to="/sponsors">Sponsors</Link>
             <Link onClick={() => {this.toggleNav()}} className="nav-item nav-link" to="/members">Members</Link>
-            <a onClick={() => {this.toggleNav()}} className="nav-item nav-link" href="https://docs.uwarg.com" target="_blank">Docs</a>
+            <a onClick={() => {this.toggleNav()}} className="nav-item nav-link" href="http://www.docs.uwarg.com" target="_blank">Docs</a>
             <Link onClick={() => {this.toggleNav()}} className="nav-item nav-link" to="/contact">Contact</Link>
             <Link onClick={() => {this.toggleNav()}} className="nav-item nav-link" to="/join">Join</Link>
           </div>
