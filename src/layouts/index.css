@@ -142,7 +142,7 @@ button {
 .heroImage {
   width: 100%;
   height: 100vh;
-  background-image: url('heroImage.jpg');
+  background-image: url('heroimage.jpg');
   background-size: cover;
 }
 
@@ -150,7 +150,7 @@ button {
   .heroImage {
     height: 100%;
     padding-bottom: 2em;
-    background-image: url('heroImage.jpg');
+    background-image: url('heroimage.jpg');
     background-size: cover;
   }
 }
