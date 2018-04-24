@@ -16,7 +16,6 @@ body {
   min-height: 100vh;
   color: #262626;
   font-family: 'Open Sans', sans-serif;
-  padding: 0;
   padding-top: 3.5em;
 }
 
@@ -88,7 +87,7 @@ button {
 .footer {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -1;
   left: 0;
   padding: 3em;
   padding-top: 1.5em;
