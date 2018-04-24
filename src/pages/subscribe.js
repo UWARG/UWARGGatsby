@@ -10,7 +10,7 @@ const SubscribePage = () => (
         <form>
           <div class="form-group">
             <h2 style={{paddingTop: "1em"}}>Email address</h2>
-            <input style={{marginBottom: "2em"}} type="email" class="form-control"/>
+            <input style={{marginBottom: "2em"}} type="email" className="form-control"/>
             <div style={{paddingTop: "1em"}} className="form-check">
               <p className="form-check-label bodyText">
                 <input style={{marginRight: ".5em"}} className="form-check-input" type="checkbox" value="option1" checked disabled/>

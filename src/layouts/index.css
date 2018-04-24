@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5em !important;
 }
 
 button {
@@ -179,6 +179,11 @@ button {
   .mobileSmallMarginBottom {
     margin-bottom: 1em;
   }
+}
+
+.paddingLeft {
+  padding-left: 2em !important;
+  padding-right: 2em !important;
 }
 
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {

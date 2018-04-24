@@ -11,7 +11,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer style={{marginTop: "4em"}} className="mainColor footer">
-        <div className="row no-gutters justify-content-between">
+        <div className="row no-gutters  justify-content-lg-between justify-content-md-center">
           <div className="col-auto">
             <div className="row no-gutters">
               <div className="col-12">
