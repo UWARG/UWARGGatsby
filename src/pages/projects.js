@@ -10,14 +10,14 @@ const ProjectsPage = () => (
     </div>
     <div className="row">
       <div className="col-md-4 col-12 projectCard">
-        <Link className="noUnderline" style={{color: "#262626"}} to="/projectboreas">
+        <Link className="noUnderline" style={{color: "#262626"}} to="/boreas">
           <img className="img-fluid" src="boreas.jpg" />
           <h4 style={{marginBottom: "0em", marginTop: ".2em"}}>Project Boreas</h4>
           <small className="text-muted">The newest addition to the WARG fleet.</small>
         </Link>
       </div>
       <div className="col-md-4 col-12 projectCard">
-        <Link className="noUnderline" style={{color: "#262626"}} to="/projecthex">
+        <Link className="noUnderline" style={{color: "#262626"}} to="/hex">
           <img className="img-fluid" src="hex.png" />
           <h4 style={{marginBottom: "0em", marginTop: ".2em"}}>Project Hex</h4>
           <small className="text-muted">Our current competition vehicle.</small>

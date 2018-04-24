@@ -20,13 +20,13 @@ class OtherProjects extends React.Component {
         name: "Project Boreas",
         description: "The newest addition to the WARG fleet.",
         photo: "boreas.jpg",
-        link: "/projectboreas"
+        link: "/boreas"
       },
       {
         name: "Project Hex",
         description: "Our current competition vehicle.",
         photo: "hex.png",
-        link: "/projecthex"
+        link: "/hex"
       },
       {
         name: "ZeroPilot",
