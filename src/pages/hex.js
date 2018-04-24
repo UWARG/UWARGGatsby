@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import OtherProjects from '../components/otherprojects.js';
+
 const HexPage = () => (
   <div className="container-fluid paddingLeft">
     <div className="row bodyHeaderHolder">
