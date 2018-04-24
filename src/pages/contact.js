@@ -10,11 +10,11 @@ const ContactPage = () => (
         <form>
           <div class="form-group">
             <h2>Name</h2>
-            <input style={{marginBottom: "2em"}} type="text" class="form-control"/>
+            <input style={{marginBottom: "2em"}} type="text" className="form-control"/>
             <h2>Email address</h2>
-            <input style={{marginBottom: "2em"}} type="email" class="form-control"/>
+            <input style={{marginBottom: "2em"}} type="email" className="form-control"/>
             <h2>Message</h2>
-            <textarea style={{marginBottom: "2em", resize: "none"}} rows="5.5" type="email" class="form-control"/>
+            <textarea style={{marginBottom: "2em", resize: "none"}} rows="5.5" type="email" className="form-control"/>
             <button style={{paddingLeft: "1em", paddingRight: "1em"}} className="btn btn-lg button whiteText mainColor">Submit</button>
           </div>
         </form>

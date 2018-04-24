@@ -181,6 +181,11 @@ button {
   }
 }
 
+.paddingLeft {
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+}
+
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
     border-color: #262626 !important;
     outline: 0 none !important;
