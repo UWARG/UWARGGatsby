@@ -11,7 +11,7 @@ const AboutPage = () => (
         <p className="bodyText">With the help of our sponsors, WARG is able to foster innovation and push the boundaries of what is possible.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="aboutusphoto.png"/>
+        <img className="img-fluid" src="aboutusphoto.jpg"/>
       </div>
     </div>
     <div className="row bodyHeaderHolder">
