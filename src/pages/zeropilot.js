@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import OtherProjects from '../components/otherprojects.js';
+
 const ZeroPilotPage = () => (
   <div className="container-fluid paddingLeft">
     <div className="row bodyHeaderHolder">
@@ -11,7 +13,7 @@ const ZeroPilotPage = () => (
         <p className="bodyText">Path management, attitude management and sensor management are all regulated through this custom autopilot board. The Attitude Manager’s responsibility is to track and sustain the rotational position of the aircraft in 3D space. The Path Manager’s primary duty is to maintain the course of the aircraft. ZeroPilot incorporates sensor data from multiple sensors in order to understand its position in relation to the ground station and the target.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/zeropilot.jpg" />
+        <img className="img-fluid" src="zeropilot.jpg" />
       </div>
     </div>
     <OtherProjects current="ZeroPilot" />

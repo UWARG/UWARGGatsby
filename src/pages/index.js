@@ -37,18 +37,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row">
-          <div style={{marginTop: "1em", marginBottom: "1em"}} className="col-12">
-            <img className="img-fluid" src="/assets/solidworks.png" />
-          </div>
-          <div style={{marginTop: "1em", marginBottom: "1em"}} className="col-12">
-            <img className="img-fluid" src="/assets/asana.png" />
-          </div>
-          <div style={{marginTop: "1em", marginBottom: "1em"}} className="col-12">
-            <img className="img-fluid" src="/assets/baycircuits.png" />
-          </div>
-          <div style={{marginTop: "1em", marginBottom: "1em"}} className="col-12">
-            <img className="img-fluid" src="/assets/mathworks.jpg" />
-          </div>
+          <img />
         </div>
       </div>
     </div>

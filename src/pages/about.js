@@ -11,7 +11,7 @@ const AboutPage = () => (
         <p className="bodyText">With the help of our sponsors, WARG is able to foster innovation and push the boundaries of what is possible.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/aboutusphoto.png"/>
+        <img className="img-fluid" src="aboutusphoto.png"/>
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -22,7 +22,7 @@ const AboutPage = () => (
         <p className="bodyText">Since then, WARG has competed in numerous national and international competitions, always bringing innovative ideas and designs.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/humblephoto.jpg"/>
+        <img className="img-fluid" src="humblephoto.jpg"/>
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -33,7 +33,7 @@ const AboutPage = () => (
         <p className="bodyText">Once soaring above competitors in terms of size and speed, Hyperion now resides in the WARG bay, inspiring current team members as they work on the group’s latest projects.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/hyperion.jpg"/>
+        <img className="img-fluid" src="hyperion.jpg"/>
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -44,7 +44,7 @@ const AboutPage = () => (
         <p className="bodyText">Like what you’re hearing? Take a look at all that WARG has to offer on our <Link to="/join">join</Link> page.</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/aboveandbeyond.jpg"/>
+        <img className="img-fluid" src="aboveandbeyond.jpg"/>
       </div>
     </div>
     <div className="row bodyHeaderHolder">
@@ -55,7 +55,7 @@ const AboutPage = () => (
         <p className="bodyText">More exciting events with WARG are to come in the future!</p>
       </div>
       <div className="col-md-6 col-12">
-        <img className="img-fluid" src="/assets/outreach.jpg"/>
+        <img className="img-fluid" src="outreach.jpg"/>
       </div>
     </div>
   </div>

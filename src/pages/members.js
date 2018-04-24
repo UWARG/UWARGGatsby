@@ -10,7 +10,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img style={{width: "100%"}} className="img-fluid mobileSmallMarginBottom" src="./assets/ian.png" />
+        <img style={{width: "100%"}} className="img-fluid mobileSmallMarginBottom" src="ian.png" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Ian Frosst&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}>Team Lead</span></h3>
@@ -19,7 +19,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="./assets/stephen.png" />
+        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="stephen.png" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Stephen Cholvat&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}>Team Lead</span></h3>
@@ -28,7 +28,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="./assets/mark.png" />
+        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="mark.png" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Mark Dunk&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}>Mechanics Lead</span></h3>
@@ -37,7 +37,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="./assets/serge.jpg" />
+        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="serge.jpg" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Serge Babayan&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}>Software and Electrical Lead</span></h3>
@@ -46,7 +46,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img className="img-fluid mobileSmallMarginBottom" src="./assets/benjamin.jpg" />
+        <img className="img-fluid mobileSmallMarginBottom" src="benjamin.jpg" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Benjamin Winger&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}>Computer Vision Lead</span></h3>
@@ -55,7 +55,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="./assets/annie.jpg" />
+        <img style={{width: "100%"}}  className="img-fluid mobileSmallMarginBottom" src="annie.jpg" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Annie LePage&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}>Team Safety Captain</span></h3>
@@ -64,7 +64,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img className="img-fluid mobileSmallMarginBottom" src="./assets/roman.jpg" />
+        <img className="img-fluid mobileSmallMarginBottom" src="roman.jpg" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Roman Boychuk&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}></span></h3>
@@ -73,7 +73,7 @@ const MembersPage = () => (
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
       <div className="col-md-2 col-12">
-        <img className="img-fluid mobileSmallMarginBottom" src="./assets/michael.jpg" />
+        <img className="img-fluid mobileSmallMarginBottom" src="michael.jpg" />
       </div>
       <div className="col-md-8 col-12">
         <h3>Michael Lenover&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}></span></h3>

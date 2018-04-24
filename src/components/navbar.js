@@ -1,6 +1,5 @@
 import React from 'react';
-
-import { a } from 'react-router-dom';
+import Link from 'gatsby-link';
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -24,20 +23,20 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark mainColor">
         <a href="/" className="navbar-brand">
-          <img src="/assets/logo.png" className="d-inline-block" width="50" alt="" />
+          <img src="logo.png" className="d-inline-block" width="50" alt="" />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <div className="navbar-nav mr-auto">
-            <a onClick={this.closeNav} className="nav-item nav-link" href="/#/about">About</a>
-            <a onClick={this.closeNav} className="nav-item nav-link" href="/#/projects">Projects</a>
-            <a onClick={this.closeNav} className="nav-item nav-link" href="/#/sponsors">Sponsors</a>
-            <a onClick={this.closeNav} className="nav-item nav-link" href="/#/members">Members</a>
-            <a onClick={this.closeNav} className="nav-item nav-link" href="http://docs.uwarg.com" target="_blank">Docs</a>
-            <a onClick={this.closeNav} className="nav-item nav-link" href="/#/contact">Contact</a>
-            <a onClick={this.closeNav} className="nav-item nav-link" href="/#/join">Join</a>
+            <Link onClick={this.closeNav} className="nav-item nav-link" to="/about">About</Link>
+            <Link onClick={this.closeNav} className="nav-item nav-link" to="/projects">Projects</Link>
+            <Link onClick={this.closeNav} className="nav-item nav-link" to="/sponsors">Sponsors</Link>
+            <Link onClick={this.closeNav} className="nav-item nav-link" to="/members">Members</Link>
+            <a onClick={this.closeNav} className="nav-item nav-link" href="https://docs.uwarg.com" target="_blank">Docs</a>
+            <Link onClick={this.closeNav} className="nav-item nav-link" to="/contact">Contact</Link>
+            <Link onClick={this.closeNav} className="nav-item nav-link" to="/join">Join</Link>
           </div>
         </div>
       </nav>
