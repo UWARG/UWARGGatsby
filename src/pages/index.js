@@ -37,7 +37,9 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row">
-          <img src="topsponsors.png" className="img-fluid" />
+          <div className="col-12">
+            <img src="topsponsors.png" className="img-fluid" />
+          </div>
         </div>
       </div>
     </div>
