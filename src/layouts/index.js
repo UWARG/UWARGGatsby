@@ -20,6 +20,9 @@ const Layout = ({ children, data }) => (
         { property: 'og:image', content: 'http://www.uwarg.com/assets/favicon.ico' },
         { charset: 'utf-8' },
       ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/x-icon', href: 'favicon.ico' }
+      ]}
     />
     <Navbar />
     {children()}
