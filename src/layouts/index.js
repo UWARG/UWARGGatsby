@@ -25,7 +25,9 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Navbar />
-    {children()}
+    <div style={{paddingTop: "3.5em"}}>
+      {children()}
+    </div>
     <Footer />
   </div>
 )
