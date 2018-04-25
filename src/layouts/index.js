@@ -8,7 +8,7 @@ import Footer from '../components/footer.js';
 import './index.css';
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div style={{position: 'relative'}}>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
