@@ -1,15 +1,5 @@
-html {
-  height: 100vh;
-  width: 100vw;
-}
-
-* {
-  box-sizing: border-box;
-}
-
 body {
   min-height: 100vh;
-  min-width: 100vw;
   color: #262626;
   font-family: 'Open Sans', sans-serif;
   padding-top: 3.5em;
