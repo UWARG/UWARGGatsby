@@ -167,6 +167,10 @@ button {
   padding-right: 2em !important;
 }
 
+.navbar {
+  width: calc(100% - 15px);
+}
+
 textarea:focus, input:focus, input[type]:focus, .uneditable-input:focus {
     border-color: #262626 !important;
     outline: 0 none !important;

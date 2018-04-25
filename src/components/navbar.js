@@ -17,7 +17,7 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <nav className="navbar fixed-top navbar-expand-lg navbar-dark mainColor">
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark mainColor no-gutters">
         <Link to="/" className="navbar-brand">
           <img src="logo.png" className="d-inline-block" width="50" alt="" />
         </Link>
