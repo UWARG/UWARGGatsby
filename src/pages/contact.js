@@ -6,18 +6,7 @@ const ContactPage = () => (
     <div className="row bodyHeaderHolder">
       <div className="col-md-5 col-12 mr-auto mobileMarginBottom">
         <h1>Contact</h1>
-        <p className="bodyText">You’re welcome to contact us about anything, whether you’re a student, sponsor, or just someone who’s interested in what we do. You can either email us at <strong>uw.warg@gmail.com</strong>, or just use the form below.</p>
-        <form netlify name="contact" method="POST">
-          <div class="form-group">
-            <h2>Name</h2>
-            <input style={{marginBottom: "2em"}} type="text" className="form-control"/>
-            <h2>Email address</h2>
-            <input style={{marginBottom: "2em"}} type="email" className="form-control"/>
-            <h2>Message</h2>
-            <textarea style={{marginBottom: "2em", resize: "none"}} rows="5.5" type="email" className="form-control"/>
-            <button style={{paddingLeft: "1em", paddingRight: "1em"}} className="btn btn-lg button whiteText mainColor">Submit</button>
-          </div>
-        </form>
+        <p className="bodyText">You’re welcome to contact us about anything, whether you’re a student, sponsor, or just someone who’s interested in what we do. You can email us at <strong>uw.warg@gmail.com</strong></p>
       </div>
       <div className="col-6 col-md-5 col-12">
         <h1>Mail and Shipments</h1>
