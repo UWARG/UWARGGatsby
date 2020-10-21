@@ -32,7 +32,7 @@ const MembersPage = () => (
       </div>
       <div className="col-md-8 col-12">
         <h3>Lucy Gong&nbsp;<span className="text-muted" style={{fontSize: ".6em", fontWeight: "400"}}>Safety Captain</span></h3>
-        <p className="bodyText">Lucy has been a member of WARG since the winter of 2018. She primarily works with the electrical team and is trying very hard to do firmware, while also being WARG’s Safety Captain. Lucy is currently enrolled in Mechatronics Engineering.</p>
+        <p className="bodyText">Lucy has been a member of WARG since winter 2018. She primarily works with the electrical team and is trying very hard to do firmware, while also being WARG’s Safety Captain. Lucy is currently enrolled in Mechatronics Engineering.</p>
       </div>
     </div>
     <div className="row" style={{marginBottom: "4em"}}>
